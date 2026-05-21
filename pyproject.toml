@@ -4,13 +4,16 @@ version = "1.0.1"
 description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
-    "database_errors"
+    "database_errors",
+    "configuration",
 ]
 
 [tool.uv.workspace]
 members = [
     "src/database_errors",
+    "src/configuration",
 ]
 
 [tool.uv.sources]
 database_errors = { workspace = true }
+configuration = { workspace = true }
