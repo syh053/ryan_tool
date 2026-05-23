@@ -6,14 +6,18 @@ requires-python = ">=3.13"
 dependencies = [
     "database_errors",
     "configuration",
+    "model_basic",
 ]
 
 [tool.uv.workspace]
 members = [
     "src/database_errors",
     "src/configuration",
+    "src/model_basic",
 ]
 
 [tool.uv.sources]
 database_errors = { workspace = true }
 configuration = { workspace = true }
+model_basic = { workspace = true }
+
