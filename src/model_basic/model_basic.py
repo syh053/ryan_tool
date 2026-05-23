@@ -1,4 +1,8 @@
-from sqlalchemy.orm import DeclarativeBase
+import uuid
+
+from sqlalchemy import UUID, text
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+
 
 class BaseModel(DeclarativeBase):
     id: Mapped[uuid.UUID] = mapped_column(
