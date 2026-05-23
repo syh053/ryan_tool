@@ -1,0 +1,7 @@
+[project]
+name = "model-basic"
+version = "1.0.1"
+requires-python = ">=3.13"
+dependencies = [
+    "sqlalchemy>=2.0.49",
+]
