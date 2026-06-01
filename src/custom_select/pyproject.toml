@@ -1,0 +1,8 @@
+[project]
+name = "custom-select"
+version = "1.0.1"
+description = "重新封裝 SQLAlchemy Select 類別"
+requires-python = ">=3.13"
+dependencies = [
+    "sqlalchemy>=2.0.49",
+]
