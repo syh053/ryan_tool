@@ -5,6 +5,8 @@ from sqlalchemy.sql import Select
 
 # 1. 透過繼承，建立一個擁有新 where 功能的 Select 類別
 class CustomSelect(Select):
+    inherit_cache = True
+
     def select_from(self, *froms) -> Self:
         return super().select_from(*froms)
 
