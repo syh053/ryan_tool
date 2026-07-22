@@ -1,6 +1,6 @@
 [project]
 name = "ryan-tool"
-version = "1.0.8"
+version = "1.0.9"
 description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
@@ -8,14 +8,6 @@ dependencies = [
     "configuration",
     "model_basic",
     "custom-select",
-]
-
-[tool.uv.workspace]
-members = [
-    "src/database_errors",
-    "src/configuration",
-    "src/model_basic",
-    "src/custom_select",
 ]
 
 [tool.uv.sources]
