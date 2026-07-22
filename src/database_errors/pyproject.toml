@@ -1,6 +1,6 @@
 [project]
 name = "database-errors"
-version = "1.0.2"
+version = "1.0.3"
 description = "資料庫錯誤處理"
 requires-python = ">=3.13"
 dependencies = []
