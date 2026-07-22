@@ -10,6 +10,14 @@ dependencies = [
     "custom-select",
 ]
 
+[tool.uv.workspace]
+members = [
+    "src/database_errors",
+    "src/configuration",
+    "src/model_basic",
+    "src/custom_select",
+]
+
 [tool.uv.sources]
 database_errors = { workspace = true }
 configuration = { workspace = true }
